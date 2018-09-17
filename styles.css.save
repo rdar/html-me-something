@@ -1,0 +1,15 @@
+#need margin and padding
+#use at least one element, class, id
+
+#css for colums
+
+.colums { column-count:3;
+	  column-gap: 40px;
+          }
+
+p {
+}
+
+#The difference between an ID and a class is that an ID can be used to identify one element,
+# whereas a class can be used to identify more than one.
+

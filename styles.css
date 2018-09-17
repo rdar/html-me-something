@@ -1,0 +1,31 @@
+/**need margin and padding
+#use at least one element, class, id*/
+
+/**body {
+
+ background-color: #E4ECF3;
+}*/
+
+body {
+
+    background-image: url("/Users/renedarris/lc101/html-me-something/images/DTS-IceCream2.jpg;");
+}
+
+.columns {
+
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px){
+    .column {
+        width:100%;
+    }
+}
