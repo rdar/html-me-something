@@ -3,12 +3,12 @@
 
 body {
 
- background-color: #FFE1F0
+ background-color: white
 }
 
 body{
 
-    color: palevioletred
+    color: black
 }
 
 /**body {
@@ -51,4 +51,23 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+.center {
+    text-align: center;
+}
+.title { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 100px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+.titletwo { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 45px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+footer {
+   
+    color: gray;
+   
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
 }
